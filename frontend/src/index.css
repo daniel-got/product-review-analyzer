@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@700;800;900&display=swap');
+
+:root {
+  --bg-color: #FFEB3B;    /* Kuning Terang */
+  --card-bg: #FFFFFF;     /* Putih */
+  --accent-cyan: #00BCD4; /* Biru Cyan */
+  --accent-purple: #9C27B0; /* Ungu */
+  --accent-red: #FF5252;  /* Merah */
+  --accent-green: #00E676; /* Hijau Neon */
+  --border-black: #000000;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: 'Public Sans', sans-serif;
+  color: var(--border-black);
+  margin: 0;
+  padding: 20px;
+}
+
+/* --- NEO-BRUTALISM UTILITIES --- */
+
+.neo-box {
+  background: var(--card-bg);
+  border: 4px solid var(--border-black);
+  box-shadow: 8px 8px 0px 0px var(--border-black);
+  transition: all 0.2s ease;
+}
+
+.neo-input {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 3px solid var(--border-black);
+  background: #FFF9C4; /* Kuning pudar */
+  margin-bottom: 15px;
+  font-family: 'Public Sans', sans-serif;
+  box-sizing: border-box; /* Agar padding gak ngerusak width */
+}
+
+.neo-input:focus {
+  outline: none;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 0px 0px var(--border-black);
+}
+
+.neo-btn {
+  background: var(--accent-green);
+  color: var(--border-black);
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px solid var(--border-black);
+  box-shadow: 5px 5px 0px 0px var(--border-black);
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 100%;
+  transition: transform 0.1s;
+}
+
+.neo-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0px 0px var(--border-black);
+}
+
+.neo-btn:active {
+  transform: translate(5px, 5px);
+  box-shadow: 0px 0px 0px 0px var(--border-black);
+}
+
+.neo-btn:disabled {
+  background: #BDBDBD;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.neo-tag {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+
+/* Scrollbar kasar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+  border-left: 3px solid black;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-purple);
+  border: 3px solid black;
+}
