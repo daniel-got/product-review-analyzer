@@ -115,4 +115,15 @@ curl -X POST http://localhost:6543/api/analyze-review \
 ```
 
 ## Dokumentasi Frontend
+Tampilan awal : 
+<img width="1400" height="831" alt="image" src="https://github.com/user-attachments/assets/e19bb435-d399-447b-a292-6f10f9899593" />
 
+Input data : 
+<img width="1400" height="831" alt="image" src="https://github.com/user-attachments/assets/26e08efc-cd12-405e-8a75-b5a91897ee9c" />
+
+Hasil analisis : 
+gagal:
+<img width="1400" height="831" alt="image" src="https://github.com/user-attachments/assets/c68acdd9-211f-4ff5-837e-163c24b91606" />
+
+berhasil:
+<img width="1400" height="831" alt="image" src="https://github.com/user-attachments/assets/e90c906c-6795-46d3-96ce-1f886f368a42" />
