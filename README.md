@@ -111,3 +111,8 @@ Jika ingin menguji backend tanpa frontend, gunakan cURL:
 curl -X POST http://localhost:6543/api/analyze-review \
 -H "Content-Type: application/json" \
 -d '{"product_name": "Kopi Kenangan", "review_text": "Rasanya enak tapi pengiriman lama.", "rating": 0}'
+
+```
+
+## Dokumentasi Frontend
+
